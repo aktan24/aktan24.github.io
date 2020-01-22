@@ -462,6 +462,33 @@ a{
 		font-size: 13px;
 	}
 }
+	@media(max-width: 375px){
+	.nomer1{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.nomer2{
+		margin-bottom: 10px;
+	}
+	.dela{
+		margin-left: 25px;
+	}
+	.button2{
+		margin-left: 95px;
+	}
+	.images2{
+		margin-left: 70px;
+	}
+	.button3{
+		margin-left: 86px;
+	}
+	.adaptive{
+		font-size: 17px;
+	}
+	.uslugi2{
+		margin-bottom: 20px;
+	}
+}
 	@media(max-width: 350px){
 	.nomer1{
 		display: flex;
