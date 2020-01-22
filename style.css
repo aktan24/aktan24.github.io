@@ -471,15 +471,27 @@ a{
 		margin-bottom: 10px;
 	}
 	.shapka1{
-		margin-left: 90px;
+		margin-left: 75px;
 		margin-bottom: 0px;
 	}
 	.shapka2{
 		margin-left: 25px;
 		padding-top: 0px;
 	}
+	.dmitry{
+		margin-left: 40px;
+	}
+	.dmitry1{
+		font-size: 30px;
+	}
+	.dmitry2{
+		font-size: 15px;
+	}
+	.button1{
+		margin-left: 45px;
+	}
 	.dela{
-		margin-left: 25px;
+		margin-left: 15px;
 	}
 	.button2{
 		margin-left: 105px;
@@ -496,6 +508,12 @@ a{
 	.uslugi2{
 		margin-bottom: 20px;
 	}
+	.contacts{
+		margin-top: 20px;
+	}
+	.social{
+		margin-top: 20px;
+	}
 }
 	@media(max-width: 350px){
 	.nomer1{
@@ -504,6 +522,26 @@ a{
 	}
 	.nomer2{
 		margin-bottom: 10px;
+	}
+	.shapka1{
+		margin-left: 75px;
+		margin-bottom: 0px;
+	}
+	.shapka2{
+		margin-left: 25px;
+		padding-top: 0px;
+	}
+	.dmitry{
+		margin-left: 40px;
+	}
+	.dmitry1{
+		font-size: 30px;
+	}
+	.dmitry2{
+		font-size: 15px;
+	}
+	.button1{
+		margin-left: 45px;
 	}
 	.dela{
 		margin-left: 25px;
@@ -522,5 +560,11 @@ a{
 	}
 	.uslugi2{
 		margin-bottom: 20px;
+	}
+	.contacts{
+		margin-top: 20px;
+	}
+	.social{
+		margin-top: 20px;
 	}
 }
