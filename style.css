@@ -470,17 +470,25 @@ a{
 	.nomer2{
 		margin-bottom: 10px;
 	}
+	.shapka1{
+		margin-left: 90px;
+		margin-bottom: 0px;
+	}
+	.shapka2{
+		margin-left: 25px;
+		padding-top: 0px;
+	}
 	.dela{
 		margin-left: 25px;
 	}
 	.button2{
-		margin-left: 95px;
+		margin-left: 105px;
 	}
 	.images2{
 		margin-left: 70px;
 	}
 	.button3{
-		margin-left: 86px;
+		margin-left: 100px;
 	}
 	.adaptive{
 		font-size: 17px;
