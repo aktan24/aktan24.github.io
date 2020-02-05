@@ -1,0 +1,570 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial narrow;
+	background-color: #FAFAFA;
+}
+.shapka1{
+ 	display: flex;
+}
+.shapka1 a{
+	color:#000;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+.shapka1 a:hover{
+	padding-bottom: 3px;
+	border-bottom: 2px solid #FF6347;
+	color: #FF6347;
+	list-style: none;
+}
+.shapka1{
+	margin:20px 16% 0px 16%;
+	display: flex;	
+	flex-direction: row;
+	justify-content: space-between;	
+	align-items: baseline;	
+}
+.uslugi1{
+	display: flex;
+	flex-direction: row;
+}
+.nomer1{
+	display: flex;
+	flex-direction: row;
+}
+a{
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+ 	margin-right: 20px;
+ 	margin-top: 11px;
+}   
+.nomer2{
+	margin-left: 280px;
+	margin-right: 20px;
+	font-size: 25px;
+	font-weight: 900;
+}
+.zakaz{
+	cursor: pointer;
+	padding: 10px 25px 10px 25px;
+	background-color: #FAFAFA;
+	border-color: #FF4500;
+	border-width: 1px;
+	border-style: solid;
+	color: #FF4500;
+}
+.zakaz2{
+	cursor: pointer;
+	padding: 10px 45px 10px 45px;
+	background-color: #FAFAFA;
+	border-color: #FF4500;
+	border-width: 1px;
+	border-style: solid;
+	color: #FF4500;
+	margin-bottom: 25px;
+}
+.shapka2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.dmitry{
+	margin-left: 16%;
+	margin-top: 170px;
+	width: 800px;
+}
+.dmitry1{
+	font-size: 60px;
+	font-weight: bold;
+}
+.dmitry2{
+	color: #1E90FF;
+	margin-bottom: 30px;
+}
+.button1{
+	cursor: pointer;
+	padding: 15px 55px 15px 55px;
+	background-color: #FF4500;
+	border-color: #FF4500;
+	border-width: 1px;
+	border-style: solid;
+	color: white;
+}
+.info{
+	cursor: pointer;
+	margin-top: 30px;
+	padding: 15px 55px 15px 55px;
+	background-color: #FF4500;
+	border-color: #FF4500;
+	border-width: 1px;
+	border-style: solid;
+	color: white;
+}
+.prework{
+	margin-top: 100px;
+	margin-left: 16%;
+	margin-bottom: 30px;
+}
+.white{
+	background-color: white;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.work{
+	display: flex;
+	margin: 65px 16% 0 16%;
+	justify-content: space-around;
+	font-weight: initial;
+	text-align: center;
+	font-size: 14px;
+	color: #1E90FF;
+}
+.work img{
+	height: 60px;
+}
+.icon{
+	margin-top: 10px;
+	width: 220px;
+	font-size: 18px;
+}
+.dela{
+	margin-left: 30%;
+	font-size: 50px;
+}
+.button2{
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	margin: 40px 0 40px 43%;
+	padding: 15px 55px 15px 55px;
+	background-color: #FF4500;
+	border-color: #FF4500;
+	border-width: 1px;
+	border-style: solid;
+	color: white;
+}
+.primer{
+	margin-top: 100px;
+	margin-left: 33%;
+	font-weight: bolder;
+	font-size: 50px;
+}
+.images2{
+	cursor: pointer;
+	display: flex;
+	margin: 65px 16% 0 16%;
+	justify-content: space-around;
+	font-weight: initial;
+	text-align: center;
+	color:#1E90FF;
+}
+.images2 img{
+	margin-right: 20px; 
+}
+.button3{
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	margin:100px 0 50px 43%;
+	padding: 15px 55px 15px 55px;
+	background-color: #FF4500;
+	border-color: #FF4500;
+	border-width: 1px;
+	border-style: solid;
+	color: white;
+}
+.verstka{
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 23%;
+	display: flex;
+	flex-direction: column;
+	background-color: #FF4500;
+	color: white;
+	text-align: left;
+}
+.adaptive{
+	margin-bottom: 20px;
+	font-size: 40px;
+}
+.info2{
+	display: flex;
+	margin:60px 10% 10px 10%;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: baseline;
+}
+.uslugi2{
+	font-size: 15px;
+	text-align: left;
+	color: #1E90FF;
+}
+.uslugi a:hover{
+	border-bottom: 2px solid #FF6347;
+	color: #FF6347;
+}
+.contacts p{
+	margin-bottom: 25px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.img{
+	margin-right: 20px;
+	cursor: pointer;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+	background-color: #1e0f2a;
+	color: white;
+	margin-top: 80px;
+	font-size: 15px;
+	padding-top: 23px;
+	padding-bottom: 23px;
+}
+
+/*Адаптивка для сайта*/
+@media (max-width: 1200px){
+	.nomer2{
+		font-size: 15px;
+		margin-left: 150px;
+	}
+	.button2{
+		display: flex;
+		justify-content: center;
+	}
+	.button3{
+		display: flex;
+		justify-content: center;
+	}
+}
+@media (max-width: 1031px){
+	.nomer2{
+		font-size: 13px;
+		margin-left: 125px;
+	}
+	.button2{
+		display: flex;
+		justify-content: center;
+	}
+	.button3{
+		display: flex;
+		justify-content: center;
+	}
+}
+@media (max-width: 900px){
+	.shapka2{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.button2{
+		display: flex;
+		justify-content: center;
+	}
+	.button3{
+		display: flex;
+		justify-content: center;
+	}
+	.dima img{
+		height: 400px;
+	}
+	.zakaz{
+		padding: 5px 12px 5px 12px;
+	}
+	.nomer2{
+		margin-left: 100px;
+		font-size: 10px;
+	}
+	.dela{
+		margin-left: 150px;
+	}
+	.work{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.work p{
+		margin-bottom: 10px;	
+	}
+	.button2{
+		margin-left: 330px;
+	}
+	.images2{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.images2 p{
+		margin-bottom: 10px;
+	}
+	.primer{
+		margin-left: 190px;
+	}
+	.button3{
+		display: flex;
+		justify-content: center;
+		margin-left: 310px;
+	}
+	.verstka{
+	padding-left: 8%;
+	}
+}
+@media(max-width: 850px){
+	.zakaz{
+		font-size: 10px;
+	}
+	.nomer2{
+		margin-left: 30px;
+	}
+}
+@media(max-width: 710px){
+	.uslugi1{
+		font-size: 10px;
+		margin-right: 10px;
+	}
+	.nomer2{
+		margin-left: 0px;
+	}
+	.dela{
+		margin-left: 100px;
+	}
+	.button2{
+		margin-left: 240px;
+	}
+	.primer{
+		margin-left: 120px;
+	}
+	.button3{
+		margin-left: 230px;
+	}
+	.adaptive{
+		font-size: 30px;
+	}
+}
+@media(max-width: 680px){
+	.shapka1{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+	.nomer1{
+		margin-top: 20px;
+	}
+}
+@media(max-width: 616px){
+	.shapka1{
+		margin-left: 190px;
+	}
+	.shapka2{
+		margin-left: 80px;
+	}
+	.info2{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.dmitry1{
+		font-size: 40px;
+	}
+	.zakaz2{
+		margin-top: 10px;
+	}
+	.dela{
+		margin-left: 75px;
+	}
+	.button1{
+		padding: 7px 20px 7px 20px;
+	}
+	.button2{
+		margin-left: 190px;
+	}
+	.primer{
+		margin-left: 85px;
+	}
+	.button3{
+		margin-left: 175px;
+	}
+}
+@media(max-width: 500px){
+	.shapka1{
+		margin-left: 140px;
+	}
+	.shapka2{
+		margin-left: 45px;
+	}
+	.dela{
+		margin-left: 65px;
+		font-size: 40px;
+	}
+	.icon{
+		font-size: 15px;
+	}
+	.button2{
+		margin-left: 165px;
+		padding: 10px 25px 10px 25px;
+	}
+	.primer{
+		font-size: 35px;
+	}
+	.button3{
+		margin-left: 150px;
+		padding: 10px 25px 10px 25px;
+	}
+	.adaptive{
+		font-size: 20px;
+	}
+	.verstka p{
+		font-size: 13px;
+	}
+}
+@media(max-width: 400px){
+	.shapka1{
+		margin-left: 100px;
+	}
+	.shapka2{
+		margin-left: 30px;
+	}
+	.dela{
+		margin-left: 35px;
+		font-size: 40px;
+	}
+	.dima img{
+		height: 300px;
+	}
+	.icon{
+		font-size: 15px;
+	}
+	.button2{
+		margin-left: 120px;
+		padding: 10px 25px 10px 25px;
+	}
+	.primer{
+		font-size: 20px;
+	}
+	.images2 img{
+		height: 200px;
+		width: 240px;
+	}
+	.button3{
+		margin-left: 110px;
+		padding: 10px 25px 10px 25px;
+	}
+	.adaptive{
+		font-size: 20px;
+	}
+	.verstka p{
+		font-size: 13px;
+	}
+	.footer p{
+		font-size: 13px;
+	}
+}
+	@media(max-width: 375px){
+	.nomer1{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.nomer2{
+		margin-bottom: 10px;
+	}
+	.shapka1{
+		margin-left: 75px;
+		margin-bottom: 0px;
+	}
+	.shapka2{
+		margin-left: 25px;
+		padding-top: 0px;
+	}
+	.dmitry{
+		margin-left: 20px;
+	}
+	.dmitry1{
+		font-size: 30px;
+	}
+	.dmitry2{
+		font-size: 15px;
+	}
+	.button1{
+		margin-left: 45px;
+	}
+	.dela{
+		margin-left: 15px;
+	}
+	.button2{
+		margin-left: 105px;
+	}
+	.images2{
+		margin-left: 70px;
+	}
+	.button3{
+		margin-left: 100px;
+	}
+	.adaptive{
+		font-size: 17px;
+	}
+	.uslugi2{
+		margin-bottom: 20px;
+	}
+	.contacts{
+		margin-top: 20px;
+	}
+	.social{
+		margin-top: 20px;
+	}
+}
+	@media(max-width: 350px){
+	.nomer1{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.nomer2{
+		margin-bottom: 10px;
+	}
+	.shapka1{
+		margin-left: 75px;
+		margin-bottom: 0px;
+	}
+	.shapka2{
+		margin-left: 25px;
+		padding-top: 0px;
+	}
+	.dmitry{
+		margin-left: 20px;
+	}
+	.dmitry1{
+		font-size: 30px;
+	}
+	.dmitry2{
+		font-size: 15px;
+	}
+	.button1{
+		margin-left: 45px;
+	}
+	.dela{
+		margin-left: 25px;
+	}
+	.button2{
+		margin-left: 95px;
+	}
+	.images2{
+		margin-left: 70px;
+	}
+	.button3{
+		margin-left: 86px;
+	}
+	.adaptive{
+		font-size: 17px;
+	}
+	.uslugi2{
+		margin-bottom: 20px;
+	}
+	.contacts{
+		margin-top: 20px;
+	}
+	.social{
+		margin-top: 20px;
+	}
+}
