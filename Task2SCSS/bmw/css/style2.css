@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafafa;
+}
+.navbar{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+.navbar-links{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    margin-left: 100px;
+    padding:20px 0px 0px 0px;
+}
+.navbar a:hover{
+    border-bottom: 3px solid slateblue;
+}
+
+.info{
+    display: flex;
+    background-color: lightcyan;
+    padding: 20px 0px 20px 50px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+.info-first__img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.info-box{
+    display: flex;
+    margin-top: 20px;
+}
+.info-second__text{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 700px;
+}
+.date{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: lightgrey;
+}
+th{
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+
+.avto{
+    display: flex;
+    background-color: lightgrey;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.avto-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+.avto-info__box p{
+    cursor: pointer;
+    
+}
+.avto-info__box p:hover{
+    border-bottom: 1px solid #000;
+}
+.avto-info h2{
+    margin-left: 100px;
+}
+.avto-info__img{
+    height: 150px;
+}
+.avto-video{
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px 0px 50px 50px;
+}
+.avto-video p{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+.avto-video video{
+    border-radius: 5px;
+
+}
+.facts{
+    display: flex;
+
+}
+.facts-list{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+.facts-list li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+.facts-img{
+    width: 49%;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+.footer-bar{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 30px 0px 20px 0px;
+}
